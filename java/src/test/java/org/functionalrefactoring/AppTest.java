@@ -28,7 +28,7 @@ public class AppTest {
     {
         CartId cartId = new CartId("some-normal-cart");
         SpyStorage storage = new SpyStorage();
-
+    //Test
         App.applyDiscount(cartId, storage);
 
         assertThat(storage.saved, nullValue());
